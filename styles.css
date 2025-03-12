@@ -1,0 +1,171 @@
+/* Website Colors
+Background: #fff
+Dark Background: #333
+Acent Color: #099082 */
+
+@font-face {
+    font-family: 'BaronNeueBold';
+    src: url('media/font/BaronNeueBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    font-family: 'BaronNeueBold', sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li.logo {
+    margin-right: auto;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #099082;
+    border-radius: 4px;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #099082;
+}
+
+nav ul li.logo img {
+    height: 100px;
+    width: auto;
+}
+
+nav ul li a.logo-link {
+    border-bottom: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'BaronNeueBold', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+hr {
+    border: 2px solid #099082;
+    width: 60%;
+    margin: 0;
+  }
+
+.mainheader {
+    color: #fff;
+    font-size: 3.5em;
+    text-align: left;
+    padding: 20px 20px 5px 20px;
+}
+
+.pageheader {
+    color: #fff;
+    font-size: 3em;
+    text-align: left;
+    padding: 20px 20px 5px 20px;
+}
+
+.wd {
+    padding: 1px 20px 20px 20px;
+    font-size: 1.75em;
+    color: #fff;
+}
+
+.background {
+    padding: 20px;
+    background: url('media/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-family: 'BaronNeueBold', sans-serif;
+}
+
+.footer-column {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-logo {
+    height: 110px;
+    width: auto;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin: 10px 0;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #099082;
+}
+
+.footer-column ul li a.active {
+    padding: 5px;
+    border-bottom: 2px solid #099082;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medialinks {
+    height: 35px;
+    width: auto;
+    margin: 40px 10px;
+}
+
+.medialinks.linkedin:hover {
+    content: url('media/linkedin-clicked.png');
+}
+
+.medialinks.github:hover {
+    content: url('media/github-clicked.png');
+}
+
+.medialinks.mail:hover {
+    content: url('media/mail-clicked.png');
+}
