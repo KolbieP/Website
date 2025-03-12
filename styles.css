@@ -121,6 +121,15 @@ hr {
     flex-basis: 60%;
 }
 
+.honor-text {
+    font-size: 0.8em; 
+    color: #e6e6e6;
+}
+
+.program-title { 
+    font-family: 'SourceSansProBold', sans-serif;
+}
+
 .background {
     padding: 20px;
     background: url('media/background.jpg') no-repeat center center fixed;
@@ -252,6 +261,12 @@ footer {
     background-color: #077a6a;
 }
 
+.button-container {
+    display: flex; 
+    justify-content: center;
+    gap: 10px; 
+}
+
 .about-section {
     display: flex;
     text-align: center;
@@ -322,4 +337,39 @@ footer {
     font-family: 'SourceSansProBold', sans-serif;
     color: #099082;
     text-decoration: none;
+}
+
+.about-first-section {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-first-section > div {
+    flex: 1;
+    margin: 0 20px; 
+}
+
+.about-second-section {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    text-align: center; 
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.about-second-section > div {
+    flex: 1; 
+    margin: 0 20px; 
+}
+
+.Hobbyimage {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px; 
 }
