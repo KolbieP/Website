@@ -1,0 +1,84 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #000;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+h1 {
+ color: #6a0dad;
+ font-size: 3em;
+}
+
+h2 {
+  color: #6a0dad;
+  font-size: 2em;
+}
+
+button {
+  background-color: #6a0dad; 
+  color: #e6e6e6; 
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #333333; 
+}
+
+.info {
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.count {
+  color: #6a0dad;
+  padding-bottom: 2em;
+}
+
+.onDeck {
+  list-style-type: none;
+}
+
+.onDecklist {
+  padding: 0.25em;
+}
+
+.book {
+  /* display: inline-block; If I want the search results to be displayed horizontally instead of vertically*/
+  background-color: #c5b5e3; 
+  max-width: 500px; 
+  padding: 1px; 
+  margin: 0 auto; 
+  text-align: center; 
+  border-radius: 10px;
+  border: 2px solid #6a0dad;
+}
+
+#searchInput {
+  width: 100%;
+  max-width: 300px; 
+  padding: 10px; 
+  margin: 10px 0;
+  border: 2px solid #6a0dad; 
+  border-radius: 10px; 
+  background-color: #e6e6e6; 
+  color: #000; 
+  font-size: 1em; 
+  box-sizing: border-box; 
+}
+
+#searchInput:focus {
+  border-color: #c5b5e3;
+  background-color: #c5b5e3; 
+  outline: none; 
+}
