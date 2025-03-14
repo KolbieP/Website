@@ -8,4 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
             menuItem[i].className = "active";
         }
     }
+
+    // Toggle mobile menu
+    const menuIcon = document.getElementById('menu-icon');
+    const navLinks = document.getElementById('nav-links');
+
+    menuIcon.addEventListener('click', () => {
+        menuIcon.classList.toggle('active');
+        navLinks.classList.toggle('active');
+    });
 });
