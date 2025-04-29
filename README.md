@@ -2,19 +2,19 @@
 
 <p><strong>Welcome to my personal portfolio website!</strong> This site showcases my journey as a web developer, highlighting my latest projects, coding philosophy, and passion for innovation.</p>
 
-<h2>🌐 Website Overview</h2>
+<h2>Website Overview</h2>
 <ul>
   <li><strong>URL:</strong> <a href="https://kolbieparker.ca" target="_blank">https://kolbieparker.ca</a></li>
   <li><strong>Languages:</strong> HTML, CSS, JavaScript</li>
 </ul>
 
-<h2>💡 About</h2>
+<h2>About</h2>
 <p>
   I'm a passionate web developer focused on continuous learning and crafting intuitive, user-centered digital experiences.
   This portfolio is a custom-coded site (no templates or CMS), built to reflect my development process and capabilities.
 </p>
 
-<h2>🚀 Featured Projects</h2>
+<h2>Featured Projects</h2>
 <ul>
   <li>
     <strong>My Library (Django Web App)</strong><br>
@@ -45,7 +45,7 @@
   </li>
 </ul>
 
-<h2>🛠️ Development Philosophy</h2>
+<h2>Development Philosophy</h2>
 <ol>
   <li>Requirements and Planning</li>
   <li>Wireframes and System Design</li>
