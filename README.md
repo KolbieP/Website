@@ -53,7 +53,7 @@
   <li>Deployment and Maintenance</li>
 </ol>
 
-<h2>📫 Contact</h2>
+<h2>Contact</h2>
 <ul>
   <li>Email: <a href="mailto:kolbierparker20@gmail.com">kolbierparker20@gmail.com</a></li>
   <li>LinkedIn: <a href="https://www.linkedin.com/in/kolbie-parker/" target="_blank">linkedin.com/in/kolbie-parker/</a></li>
