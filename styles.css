@@ -396,6 +396,22 @@ footer {
     background-color: #077a6a;
 }
 
+.home-button {
+    font-family: 'SourceSansProBold', sans-serif;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #099082;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: #013d59 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #077a6a;
+}
+
 .button-container {
     display: flex; 
     justify-content: center;
