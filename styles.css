@@ -654,3 +654,33 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+.design-card {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.6s, transform 0.6s;
+}
+.design-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.work-images {
+    opacity: 0;
+    transform: scale(0.95) translateY(30px);
+    transition: opacity 0.6s, transform 0.6s;
+}
+.work-images.visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+}
+
+.button-container .work-button {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s, transform 0.6s;
+}
+.button-container .work-button.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

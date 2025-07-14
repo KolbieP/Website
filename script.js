@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     skillItems.forEach((li, idx) => {
                         setTimeout(() => {
                             li.classList.add('visible');
-                        }, idx * 70); 
+                        }, idx * 70);
                     });
                     observer.disconnect();
                 }
@@ -38,6 +38,47 @@ document.addEventListener('DOMContentLoaded', () => {
 
         observer.observe(skillsList);
     }
+
+    // Animate design cards on scroll
+    const designCards = document.querySelectorAll('.design-card');
+    if (designCards.length) {
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    designCards.forEach((card, idx) => {
+                        setTimeout(() => {
+                            card.classList.add('visible');
+                        }, idx * 120);
+                    });
+                    observer.disconnect();
+                }
+            });
+        }, { threshold: 0.2 });
+        observer.observe(designCards[0]);
+    }
+
+    // Animate project images and buttons on scroll
+    const projectSections = document.querySelectorAll('.project-website');
+    projectSections.forEach(section => {
+        const img = section.querySelector('.work-images');
+        const buttons = section.querySelectorAll('.work-button');
+        if (img || buttons.length) {
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        if (img) img.classList.add('visible');
+                        buttons.forEach((btn, idx) => {
+                            setTimeout(() => {
+                                btn.classList.add('visible');
+                            }, idx * 100);
+                        });
+                        observer.disconnect();
+                    }
+                });
+            }, { threshold: 0.2 });
+            observer.observe(section);
+        }
+    });
 });
 
 
