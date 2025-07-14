@@ -17,4 +17,27 @@ document.addEventListener('DOMContentLoaded', () => {
         menuIcon.classList.toggle('active');
         navLinks.classList.toggle('active');
     });
+
+    // Animate skills list on scroll into view
+    const skillsList = document.querySelector('.skills-list');
+    const skillItems = document.querySelectorAll('.skills-list li');
+
+    if (skillsList && skillItems.length) {
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    skillItems.forEach((li, idx) => {
+                        setTimeout(() => {
+                            li.classList.add('visible');
+                        }, idx * 70); 
+                    });
+                    observer.disconnect();
+                }
+            });
+        }, { threshold: 0.2 });
+
+        observer.observe(skillsList);
+    }
 });
+
+
