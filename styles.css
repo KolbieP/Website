@@ -700,3 +700,77 @@ footer {
     opacity: 1;
     transform: translateY(0);
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: #ffffff;
+  }
+
+  nav {
+    background-color: #1a1a1a;
+  }
+
+  footer {
+    background-color: #1a1a1a;
+  }
+
+  nav ul li a {
+    color: #ffffff;
+  }
+
+  nav ul li a:hover,
+  nav ul li a.active {
+    color: #099082;
+  }
+
+  .mainheader,
+  .pageheader,
+  .wd,
+  .wdtext,
+  .section-header,
+  .section-subtext,
+  .contact-header,
+  .contact-subtext,
+  .contact-info,
+  .footer-column ul li a,
+  .honor-text {
+    color: #ffffff;
+  }
+
+  .footer-column ul li a:hover {
+    color: #099082;
+  }
+
+  .design-card {
+    background-color:#012f43;
+  }
+
+  .circle {
+    background-color: #444;
+  }
+
+  .about-section,
+  .about-first-section,
+  .about-second-section,
+  .project-website,
+  .project-library,
+  .project-comp,
+  .project-hogwarts,
+  .work-section {
+    background-color: 	#242424;
+  }
+
+  .skills-list li {
+    background-color: #099082;
+    color: #ffffff;
+  }
+
+  .menu-icon .bar {
+    background-color: #ffffff;
+  }
+
+.contact-section {
+    background-color: #012f43;
+  }
+}
